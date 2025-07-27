@@ -43,6 +43,10 @@ button {
   border-radius: var(--button_radius);
   background: var(--button_outline_color);
   margin-bottom: 10px;
+
+  @media (max-width: 800px) {
+    font-size: 12px;
+  }
 }
 
 .button-top {

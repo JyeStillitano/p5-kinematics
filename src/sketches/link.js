@@ -3,7 +3,7 @@ import { limitDistance } from '../util/limitDistance.js'
 export const link = (p5) => {
   let link
   let anchor
-  const maxDist = 250
+  const maxDist = window.innerWidth > 500 ? 250 : 100
 
   p5.setup = () => {
     p5.createCanvas(window.innerWidth, window.innerHeight)

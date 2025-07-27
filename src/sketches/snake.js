@@ -1,7 +1,7 @@
 import { limitDistance } from '../util/limitDistance.js'
 
 export const snake = (p5) => {
-  const d = 100
+  const d = window.innerWidth > 500 ? 100 : 50
   const n = 15
   let anchor
   let links = []

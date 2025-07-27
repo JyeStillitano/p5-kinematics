@@ -1,7 +1,7 @@
 import { limitDistance } from '../util/limitDistance.js'
 
 export const chain = (p5) => {
-  const d = 100
+  const d = window.innerWidth > 500 ? 100 : 50
   const numLinks = 5
   let anchor
   let links = []

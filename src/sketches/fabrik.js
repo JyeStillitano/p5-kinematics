@@ -1,7 +1,7 @@
 import { limitDistance } from '../util/limitDistance.js'
 
 export const fabrik = (p5) => {
-  const d = 50
+  const d = window.innerWidth > 500 ? 50 : 25
   const numLinks = 5
   let anchorA
   let anchorB
